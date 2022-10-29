@@ -1,0 +1,80 @@
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #486269;
+  padding-top: 10px;
+}
+h2 {
+  font-size: medium;
+  padding-bottom: 15px;
+}
+footer {
+  text-align: center;
+  color: lightslategray;
+}
+.container {
+  width: fit-content;
+
+  margin: 70px 100px 10px;
+  padding: 60px 50px 10px 50px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.citysearch {
+  border: none;
+  border-radius: 10px;
+  padding: 1%;
+}
+.citysearchbutton {
+  background-color: #3fa798;
+  border: none;
+  color: #f5e1da;
+  border-radius: 10px;
+  padding: 1% 2%;
+}
+.currentinfobutton {
+  background-color: #3fa798;
+  border: none;
+  color: #f5e1da;
+  text-decoration: underline;
+
+  border-radius: 10px;
+  padding: 1% 2%;
+}
+.emojicurrentweather {
+  font-size: xxx-large;
+}
+.celsiusfarenheit {
+  font-size: medium;
+}
+.condition,
+.temperature,
+.details {
+  color: #486269;
+  background-color: #f5e1da;
+  border-radius: 10px;
+  margin: 15px 20px;
+}
+.condition {
+  font-size: large;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.temperature {
+  font-size: 4pc;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.details {
+  text-align: left;
+  font-size: 130%;
+  font-weight: 400;
+}
+.emojifutureweather {
+  font-size: xx-large;
+}
+.future {
+  border-radius: 10px;
+  background-color: #f5e1da;
+  color: #486269;
+  margin: 5px 15px 15px;
+}

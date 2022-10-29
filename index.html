@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Homework week 5</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          class="citysearch"
+          type="search"
+          autofocus="on"
+          autocomplete="off"
+          placeholder="Enter the city"
+          id="city-search"
+        />
+        <input class="citysearchbutton" type="submit" value="Search" />
+        <button class="currentinfobutton" id="current-info">Current</button>
+      </form>
+
+      <h1 id="city-display">Luxembourg</h1>
+      <h2 id="date">Sunday, 16th October 12:30</h2>
+      <div class="row">
+        <div class="col condition">
+          <div class="emojicurrentweather">☀️</div>
+          <span id="weather-condition">Sunny</span>
+        </div>
+        <div class="col temperature">
+          <span id="temperature">14</span>
+          <span class="celsiusfarenheit"
+            ><a href="#" id="celsius-link">°C</a> |<a
+              href="#"
+              id="fahrenheit-link"
+              >°F</a
+            ></span
+          >
+        </div>
+        <div class="col details">
+          Wind: <span id="wind"> 10 </span> km/h
+          <br />
+          Humidity: <span id="humidity"> 70 </span> %
+          <br />
+          Feels like: <span id="feels-like">10</span>°C
+        </div>
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col future">
+          Mon, 15°C/ 8°C
+          <div class="emojifutureweather">⛈️</div>
+        </div>
+        <div class="col future">
+          Tue, 12°C/ 6°C
+          <div class="emojifutureweather">🌧️</div>
+        </div>
+        <div class="col future">
+          Wed, 16°C/ 10°C
+          <div class="emojifutureweather">⛅</div>
+        </div>
+        <div class="col future">
+          Thu, 14°C/ 6°C
+          <div class="emojifutureweather">☀️</div>
+        </div>
+        <div class="col future">
+          Fri, 13°C/ 7°C
+          <div class="emojifutureweather">☀️</div>
+        </div>
+      </div>
+      <hr />
+      <footer>Coded by Endija Mathur</footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
